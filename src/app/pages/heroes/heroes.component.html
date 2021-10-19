@@ -1,0 +1,9 @@
+
+<app-hero-drop ></app-hero-drop>
+<div class="row">
+    <div class="col-3 mb-2" *ngFor="let hero of heroes">
+        <app-hero-card [hero]="hero"></app-hero-card>
+        <app-hero-details [hero]="hero"></app-hero-details>
+    </div>
+</div>
+
